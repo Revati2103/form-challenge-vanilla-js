@@ -1,0 +1,24 @@
+.container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.form{
+    top: 50%;
+    left: 40%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    margin-bottom: 20px;
+}
+#textarea{
+    margin-bottom: 20px;
+}
+
+#email{
+    display: none;
+}
