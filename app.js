@@ -56,7 +56,7 @@ submitBtn.addEventListener('click', (e) => {
      
             setTimeout(() => {
                 const message = document.getElementById('message');
-                message.style.display = "none";
+                message.style.visibility = "hidden";
               }, 5000); 
 
               clearInputs();
