@@ -8,7 +8,7 @@ const textarea = document.getElementById('textarea');
 
 
 const handleSubmit = () => {
-    if(fname.value.length >=1 && lname.value.length >=1){
+    if(fname.value.length && lname.value.length && fname.value.length >=1 && lname.value.length >=1){
         submitBtn.disabled = false;
     }
 }
